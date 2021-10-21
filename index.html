@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css-bootstrap/bootstrap.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style2.css">
-    <link rel="stylesheet" href="css/responsive2.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,9 +54,9 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-6 col-md-12 text-lg-start text-md-center text-center">
+                    <div class="col-lg-6 col-md-10 text-lg-start text-md-center text-center">
                         <div class="hero-text">
-                            <h2>Ingin tahu tentang Organisasi kami?</h2>
+                            <h2 class="text">Ingin tahu tentang Organisasi kami?</h2>
                             <p>Yuk cari tahu lebih dalam tentang organisasi kami, Yang pasti sangat lengkap dan menarik untuk disimak. Ayo kita mulai!</p>
                             <button class="btn btn-custom">Kenalan yuk!</button>
                         </div>
@@ -84,7 +84,7 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-4 col-md-12s col-sm-12  text-lg-start text-md-center text-center">
                         <div class="organisasi-text">
-                            <h3>Apa itu PlanetGame?</h3>
+                            <h3>Apa itu <span class="color-acsent-1">P</span>lanet<span class="color-acsent-2">G</span>ame</h3>
                             <p>Pertama, mari kita cari tahu asal usul Organisasi kami</p>
                         </div>
                     </div>
@@ -134,13 +134,13 @@
 
     <!-- Anggota Start -->
 
-    <section class="anggota" id="anggota">
+    <section class="anggota min-vh-100" id="anggota">
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 col-md-10 col-sm-12 offset-lg-1 offset-md-1 offset-sm-0 text-center">
                         <div class="anggota-text">
-                            <h3>Anggota Organisasi</h3>
+                            <h3>Anggota <span class="color-acsent-1">Organisasi</span></h3>
                             <p>Tidak lengkap rasanya jika tidak berkenalan. Ayo berkenalan dengan kami!</p>
                         </div>
                     </div>
@@ -195,57 +195,110 @@
 
     <!-- Artikel Start -->
 
-    <!-- <section class="artikel min-vh-100" id="artikel">
+    <section class="artikel min-vh-100" id="artikel">
         <div class="container-fluid">
             <div class="container">
-                <div class="row">
-                    <div class="col-4">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-4 col-md-10 text-lg-start text-md-center text-center">
                         <div class="artikel-text">
-                            <h3>Artikel tentang game</h3>
+                            <h3>Artikel tentang <span class="color-acsent-1">game</span></h3>
                             <p>Ayo cari tahu tentang seputar E-Sport di Indonesia.</p>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-7 col-md-12 offset-lg-1">
                         <div class="artikel-box">
-                            <div class="row">
-                                <div class="col">
-                                    <div class="card">
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col">
+                                        <img class="img-fluid" src="images/img-artikel-1.png" alt="images-artikel">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="card-text">
+                                            <h4>Catat! Ini Jadwal Arena of Valor International</h4>
+                                            <a href="#">Read Article <i class="fas fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col">
+                                        <img class="img-fluid" src="images/img-artikel-2.png" alt="images-artikel">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="card-text">
+                                            <h4>Call of Duty: Mobile World Championship</h4>
+                                            <a href="#">Read Article <i class="fas fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col">
+                                        <img class="img-fluid" src="images/img-artikel-1.png" alt="images-artikel">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="card-text">
+                                            <h4>Game Lokal Lokapala Ikut PON XX Papua 2021</h4>
+                                            <a href="#">Read Article <i class="fas fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Artikel End -->
+
+    <!-- Galeri Start -->
+
+    <section class="galeri min-vh-100" id="galeri">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="galeri-panel col-10 text-center">
+                        <div class="row">
+                            <div class="col-lg-10 offset-lg-1  col-12 my-4">
+                                <h3>Galeri <span class="color-acsent-1">Organisasi</span></h3>
+                                <p>Perjalanan kami selama ini akan tersimpan disini sebagai kenangan suatu saat nanti</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 mb-4">
+                                <div class="row">
+                                    <div class="col box-img">
+                                        <img class="img-fluid" src="images/img-galeri-1.png" alt="">
+                                    </div>
+                                    <div class="col">
                                         <div class="row">
-                                            <div class="col">
-                                                <img class="img-fluid" src="images/img-artikel-1.png" alt="images-artikel">
+                                            <div class="col-12 box-small">
+                                                <img class="img-fluid" src="images/img-galeri-2.png" alt="">
                                             </div>
                                             <div class="col-12">
-                                                <h4>Catat! Ini Jadwal Arena of Valor International</h4>
-                                                <p>Catat! Ini Jadwal Arena of Valor International</p>
-                                                <a href="#">Read Article</a>
+                                                <img class="img-fluid" src="images/img-galeri-3.png" alt="">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col">
-                                    <div class="card">
-                                        <div class="row">
-                                            <div class="col">
-                                                <img class="img-fluid" src="images/img-artikel-1.png" alt="images-artikel">
-                                            </div>
-                                            <div class="col-12">
-                                                <h4>Catat! Ini Jadwal Arena of Valor International</h4>
-                                                <p>Catat! Ini Jadwal Arena of Valor International</p>
-                                                <a href="#">Read Article</a>
-                                            </div>
-                                        </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="row">
+                                    <div class="col box-img">
+                                        <img class="img-fluid" src="images/img-galeri-1.png" alt="">
                                     </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card">
+                                    <div class="col">
                                         <div class="row">
-                                            <div class="col">
-                                                <img class="img-fluid" src="images/img-artikel-1.png" alt="images-artikel">
+                                            <div class="col-12 box-small">
+                                                <img class="img-fluid" src="images/img-galeri-2.png" alt="">
                                             </div>
                                             <div class="col-12">
-                                                <h4>Catat! Ini Jadwal Arena of Valor International</h4>
-                                                <p>Catat! Ini Jadwal Arena of Valor International</p>
-                                                <a href="#">Read Article</a>
+                                                <img class="img-fluid" src="images/img-galeri-3.png" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -256,16 +309,101 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- Artikel End -->
+    <!-- Galeri End -->
+
+    <div class="box-container">
+
+        <!-- About start -->
+
+        <div class="section about" id="about">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1 text-center">
+                            <p>Ada Pertanyaan atau ingin bergabung dengan kami?</p>
+                            <h3 class="text">Jangan ragu, Kami selalu ada untukmu.</h3>
+                            <button class="btn btn-custom">Hubungi kami</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About end -->
+
+        <!-- Footer strats -->
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row footer-content">
+                        <div class="company col-lg-3 col-md-12 text-lg-start text-md-center text-center">
+                            <h4>PlanetGame</h4>
+                            <p>Organisasi E-Sport Pertama di ITTP.</p>
+                        </div>
+                        <div class="resources col-lg-3 col-md-6 col-6 text-lg-start text-md-center text-center">
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Menu</h4>
+                                    <p>Menu utama</p>
+                                    <p>Organisasi</p>
+                                    <p>Anggota</p>
+                                    <div class="d-lg-none">
+                                        <p>Artikel</p>
+                                        <p>Galeri</p>
+                                    </div>
+                                </div>
+                                <div class="col d-lg-inline-block d-md-none d-none">
+                                    <h4 style="opacity: 0;">...</h4>
+                                    <p>Artikel</p>
+                                    <p>Galeri</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-us col-lg-4 col-md-6 col-6 text-lg-start text-md-center text-center">
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Tentang Kami</h4>
+                                    <p>Kebijakan Pribadi</p>
+                                    <p>Team Kami</p>
+                                    <p>Infomarsi</p>
+                                    <div class="d-lg-none">
+                                        <p>Kontak</p>
+                                        <p>Anggota</p>
+                                    </div>
+                                </div>
+                                <div class="col d-lg-inline-block d-md-none d-none">
+                                    <h4 style="opacity: 0;">...</h4>
+                                    <p>Kontak</p>
+                                    <p>Anggota</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="newsletter col-lg-2 col-md-12 text-lg-start text-md-center text-center">
+                            <h4>Sosial Media</h4>
+                            <div class="social-icon">
+                                <i class="fab fa-facebook-square"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Footer ends -->
+    </div>
 
     <!-- My Script -->
     <script src="js/script.js "></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="js/bootstrap.js"></script>
-    <script src="js/popper.min.js"></script>
+    <script src="js-bootstrap/bootstrap.js"></script>
+    <script src="js-bootstrap/popper.min.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

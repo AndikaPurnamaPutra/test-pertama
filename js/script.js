@@ -1,18 +1,11 @@
-const nav = document.getElementById('nav');
+// const nav = document.getElementById('nav');
 
-window.addEventListener('scroll', function() {
-    scrollposition = window.scrollY;
+// window.addEventListener('scroll', function() {
+//     scrollposition = window.scrollY;
 
-    if (scrollposition >= 60) {
-        nav.classList.add('nav-dark');
-    } else if (scrollposition <= 60) {
-        nav.classList.remove('nav-dark');
-    }
-})
-
-var swiper = new Swiper(".mySwiper", {
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-});
+//     if (scrollposition >= 60) {
+//         nav.classList.add('nav-dark');
+//     } else if (scrollposition <= 60) {
+//         nav.classList.remove('nav-dark');
+//     }
+// })
